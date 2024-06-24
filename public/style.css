@@ -1,0 +1,118 @@
+html{
+    background-color: #FF6969 ;
+}
+
+.item{
+    border: 3px solid #0C1844;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 75px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+p{
+    margin: 0;
+}
+h2{
+    text-align: center;
+}
+
+img{
+
+    float: left;
+    border:3px solid #E64833;
+    border-radius: 3px;
+    margin: 3px;
+}
+input[name="viewItemId"],.add {
+    background: #C80036;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+}
+input[name="newTitle"]{
+    width: 70%;
+}
+.subDetail{
+    display: flex;
+    color: #C80036;
+    margin: 20px;
+    justify-content: space-around;
+    gap: 30px;
+
+}
+
+body{
+    background-color: #FFF5E1;
+    padding: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 2px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #0C1844;
+}
+
+.item>.add{
+    cursor: pointer;
+}
+.dropbtn {
+    background-color: #FFF5E1;
+    color: #0C1844;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    font-family: "Poppins", sans-serif;
+  }
+
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  /* Links inside the dropdown */
+  .dropdown-content form {
+    color: #0C1844;
+    padding: 12px 16px;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    margin: 5px;
+    display: block;
+
+  }
+  form>input{
+    font-family: "Poppins", sans-serif;
+    width: 90px;
+    cursor: pointer;
+  }
+
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+    border: #0C1844 solid 5px;
+    border-radius: 3px;
+  }
+
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #FF6969;
+    border-radius: 3px;
+  }
